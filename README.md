@@ -23,6 +23,11 @@ Only for learning purposes.
 - Adding new functionality to an existing object
 - `Object.apply`function
 
+### DOM
+- Find elements in the document
+- Creating, updating and deleting elements
+- Event handlers
+
 ### Javascript and HTML5
 - File interfaces: `File`, `FileList` and `FileReader`
 - Drag-and-drop
