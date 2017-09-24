@@ -30,9 +30,43 @@
     <input type="text" id="searchstring">
     <label for="index">Index</label>
     <input type="number" id="index">
-
     <button onclick="calculateIndexOf()">Get result</button>
     <p id="indexOfResult"></p>
 
+    <h2>slice - substring</h2>
+    <label for="slice">Enter string</label>
+    <input type="text" id="slice">
+    <label for="startindex">Enter start index</label>
+    <input type="number" id="startindex">
+    <label for="endindex">Enter end index</label>
+    <input type="number" id="endindex">
+    <button onclick="calculateSlice()">Get result</button>
+    <p id="sliceResult"></p>
+
+    <h2>substr</h2>
+    <label for="substr">Enter string</label>
+    <input type="text" id="substr">
+    <label for="substrstart">Enter start index</label>
+    <input type="number" id="substrstart">
+    <label for="substrlength">Enter length</label>
+    <input type="number" id="substrlength">
+    <button onclick="calculateSubstr()">Get result</button>
+    <p id="substrResult"></p>
+
+    <h2>split</h2>
+    <label for="split">Enter string</label>
+    <input type="text" id="split">
+    <label for="splitseparator">Enter separator</label>
+    <input type="text" id="splitseparator">
+    <label for="splitlimit">Enter limit</label>
+    <input type="number" id="splitlimit">
+    <button onclick="calculateSplit()">Get result</button>
+    <p id="splitResult"></p>
+
+    <h2>toLowerCase - toUpperCase</h2>
+    <label for="lowerupper">Enter string</label>
+    <input type="text" id="lowerupper">
+    <button onclick="calculateLowerUpper()">Get result</button>
+    <p id="lowerupperResult"></p>
   </body>
 </html>

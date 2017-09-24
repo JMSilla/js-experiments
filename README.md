@@ -6,7 +6,6 @@ Only for learning purposes.
 ## List of unfinished experiments
 
 ### Javascript basics
-- String functions
 - Date functions
 - Array operations
 - Regular expressions
@@ -49,4 +48,6 @@ Only for learning purposes.
 - Web workers
 
 ## List of finished experiments
-Nothing yet.
+
+### Javascript basics
+- String functions
