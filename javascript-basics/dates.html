@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dates</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="dates.js"></script>
+  </head>
+  <body>
+    <h1>Dates</h1>
+
+    <div>
+      <label for="dateCreationType">Select date creation type:</label>
+      <select id="dateCreationType" onchange="changeUI()">
+        <option value="1" selected="selected">
+          Current date
+        </option>
+        <option value="2">
+          Milliseconds
+        </option>
+        <option value="3">
+          From text
+        </option>
+        <option value="4">
+          From year, month and day
+        </option>
+        <option value="5">
+          From year, month, day, hours, minutes and seconds and milliseconds
+        </option>
+      </select>
+
+      <div id="panelSingleField">
+        <label for="singleField">Enter value:</label>
+        <input type="text" id="singleField">
+      </div>
+
+      <div id="panelYMD">
+        <label for="year">Enter year, month (0-11), day:</label>
+        <input type="number" id="year">
+        <input type="number" id="month">
+        <input type="number" id="day">
+      </div>
+
+      <div id="panelHMS">
+        <label for="year">Enter hours, minutes, seconds and milliseconds:</label>
+        <input type="number" id="hours">
+        <input type="number" id="minutes">
+        <input type="number" id="seconds">
+        <input type="number" id="milliseconds">
+      </div>
+
+      <div>
+        <button id="createDate">Create date</button>
+      </div>
+
+      <p id="panelResult"></p>
+    </div>
+
+    <script type="text/javascript">
+      changeUI();
+    </script>
+  </body>
+</html>
