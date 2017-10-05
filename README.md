@@ -1,4 +1,5 @@
 # js-experiments
+
 Javascript experiments.
 
 Only for learning purposes.
@@ -6,10 +7,7 @@ Only for learning purposes.
 ## List of unfinished experiments
 
 ### Javascript basics
-- Date functions
-- Array operations
 - Regular expressions
-
 - AJAX requests using XMLHttpRequest object
 
 ### Objects and prototypes
@@ -51,3 +49,5 @@ Only for learning purposes.
 
 ### Javascript basics
 - String functions
+- Date functions
+- Array operations

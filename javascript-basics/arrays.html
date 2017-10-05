@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arrays</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="arrays.js"></script>
+  </head>
+  <body>
+    <h1>Arrays</h1>
+    <p id="array"></p>
+    <p id="result"></p>
+    <div>
+      <input type="text" id="value">
+      <button onclick="arrayPush()">push()</button>
+      <button onclick="arrayPop()">pop()</button>
+      <button onclick="arrayReverse()">reverse()</button>
+      <button onclick="arrayShift()">shift()</button>
+      <button onclick="arraySort()">sort()</button>
+      <button onclick="arraySortInt()">sort() as integers</button>
+      <button onclick="arrayUnshift()">unshift()</button>
+      <button onclick="arrayJoin()">join()</button>
+    </div>
+    <div>
+      <label for="start">Start:</label>
+      <input type="number" id="start" />
+      <label for="length">Length:</label>
+      <input type="number" id="length" />
+      <label for="start">Value list:</label>
+      <input type="text" id="newElement"/>
+      <button onclick="arraySplice()">splice()</button>
+    </div>
+    <div>
+      <label for="concatValue">Concat value:</label>
+      <input type="text" id="concatValue" />
+      <button onclick="arrayConcat()">concat()</button>
+    </div>
+    <div>
+      <label for="sliceStart">Start:</label>
+      <input type="number" id="sliceStart" />
+      <label for="sliceEnd">End:</label>
+      <input type="number" id="sliceEnd" />
+      <button onclick="arraySlice()">slice()</button>
+    </div>
+    <script type="text/javascript">
+      showArray();
+    </script>
+  </body>
+</html>
