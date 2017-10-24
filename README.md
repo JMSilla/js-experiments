@@ -21,8 +21,6 @@ Only for learning purposes.
 - `Object.apply`function
 
 ### DOM
-- Find elements in the document
-- Creating, updating and deleting elements
 - Event handlers
 
 ### Javascript and HTML5
@@ -51,3 +49,7 @@ Only for learning purposes.
 - String functions
 - Date functions
 - Array operations
+
+### DOM
+- Find elements in the document
+- Creating, updating and deleting elements
