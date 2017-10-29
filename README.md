@@ -6,10 +6,6 @@ Only for learning purposes.
 
 ## List of unfinished experiments
 
-### Javascript basics
-- Regular expressions
-- AJAX requests using XMLHttpRequest object
-
 ### Objects and prototypes
 - Name collisions
 - Constructor functions
@@ -49,6 +45,8 @@ Only for learning purposes.
 - String functions
 - Date functions
 - Array operations
+- AJAX requests using XMLHttpRequest object
+- Regular expressions
 
 ### DOM
 - Find elements in the document
