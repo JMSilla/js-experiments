@@ -20,8 +20,6 @@ Only for learning purposes.
 - Event handlers
 
 ### Javascript and HTML5
-- File interfaces: `File`, `FileList` and `FileReader`
-- Drag-and-drop
 - Video and audio interaction
 - Geolocalization
 - Page context detection
@@ -51,3 +49,7 @@ Only for learning purposes.
 ### DOM
 - Find elements in the document
 - Creating, updating and deleting elements
+
+### Javascript and HTML5
+- File interfaces: `File`, `FileList` and `FileReader`
+- Drag-and-drop

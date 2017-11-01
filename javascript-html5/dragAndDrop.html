@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drag and drop</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="dragAndDrop.js"></script>
+    <style>
+      #drop {
+        width: 300px;
+        height: 300px;
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="drop"></div>
+    <div id="result"></div>
+    <script type="text/javascript">
+      document.getElementById("drop").addEventListener("drop", dropImage);
+      document.getElementById("drop").addEventListener("dragover", dragOver);
+      document.getElementById("drop").addEventListener("dragenter", dragEnter);
+      document.getElementById("drop").addEventListener("dragleave", dragLeave);
+    </script>
+  </body>
+</html>
