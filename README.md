@@ -20,7 +20,6 @@ Only for learning purposes.
 - Event handlers
 
 ### Javascript and HTML5
-- Geolocalization
 - Page context detection
 
 ### Persistence and page caching
@@ -53,3 +52,4 @@ Only for learning purposes.
 - File interfaces: `File`, `FileList` and `FileReader`
 - Drag-and-drop
 - Video and audio interaction
+- Geolocalization
