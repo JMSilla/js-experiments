@@ -19,9 +19,6 @@ Only for learning purposes.
 ### DOM
 - Event handlers
 
-### Javascript and HTML5
-- Page context detection
-
 ### Persistence and page caching
 - Local and session persistence
 - IndexedDB
@@ -53,3 +50,4 @@ Only for learning purposes.
 - Drag-and-drop
 - Video and audio interaction
 - Geolocalization
+- Page context detection
