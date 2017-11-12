@@ -20,7 +20,6 @@ Only for learning purposes.
 - Event handlers
 
 ### Persistence and page caching
-- Local and session persistence
 - IndexedDB
 
 ### Drawing and animations
@@ -51,3 +50,6 @@ Only for learning purposes.
 - Video and audio interaction
 - Geolocalization
 - Page context detection
+
+### Persistence and page caching
+- Local and session persistence
