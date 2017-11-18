@@ -19,9 +19,6 @@ Only for learning purposes.
 ### DOM
 - Event handlers
 
-### Persistence and page caching
-- IndexedDB
-
 ### Drawing and animations
 - Canvas API
 - Transition and animation events
@@ -53,3 +50,4 @@ Only for learning purposes.
 
 ### Persistence and page caching
 - Local and session persistence
+- IndexedDB

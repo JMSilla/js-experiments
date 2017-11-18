@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IndexedDB</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="indexedDb.js"></script>
+  </head>
+  <body>
+    <h1>IndexedDB</h1>
+    <div>
+      <label for="bookTitle">Book title:</label>
+      <input type="text" id="bookTitle" />
+      <br/>
+      <label for="bookAuthor">Book author:</label>
+      <input type="text" id="bookAuthor" />
+      <br/>
+      <button type="button" onclick="addBook()">Add book</button>
+    </div>
+    <ul id="bookList">
+
+    </ul>
+    <script type="text/javascript">
+      init();
+    </script>
+  </body>
+</html>
