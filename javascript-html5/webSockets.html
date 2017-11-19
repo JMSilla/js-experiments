@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web sockets</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="webSockets.js"></script>
+  </head>
+  <body>
+    <h1>Web sockets</h1>
+    <button onclick="openSocket()">Open connection</button>
+    <button onclick="closeSocket()">Close connection</button>
+    <br/>
+    <label for="message">Message</label>
+    <input type="text" id="message" />
+    <button onclick="sendMessageToSocket()">Send</button>
+    <pre id="output"></pre>
+  </body>
+</html>

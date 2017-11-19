@@ -53,3 +53,6 @@ Only for learning purposes.
 
 ### Drawing and animations
 - Canvas API
+
+### Advance
+- Web sockets
