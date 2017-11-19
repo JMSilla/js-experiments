@@ -24,8 +24,6 @@ Only for learning purposes.
 
 ### Advance
 - Application cache monitorization
-- Web sockets
-- Web workers
 
 ## List of finished experiments
 
@@ -56,3 +54,4 @@ Only for learning purposes.
 
 ### Advance
 - Web sockets
+- Web workers
