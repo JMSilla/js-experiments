@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="canvas.js"></script>
+    <style>
+      .flexControls {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .flexControls > div {
+        margin: 10px;
+        border: 1px solid grey;
+      }
+
+      #canvas {
+        border: 1px solid black;
+        display:block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Canvas</h1>
+    <button onclick="cleanCanvas()">Clean</button>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <div class="flexControls">
+      <div>
+        <h2>Fill style</h2>
+        <label for="fillStyleColor">Color</label>
+        <input type="color" id="fillStyleColor" name="strokeStyleColor"/>
+      </div>
+
+      <div>
+        <h2>Stroke style</h2>
+        <label for="strokeStyleColor">Color</label>
+        <input type="color" id="strokeStyleColor" name="strokeStyleColor" />
+      </div>
+
+      <div>
+        <h2>Draw rectangle</h2>
+        <div>
+          <label for="rectX">Start point (X,Y)</label>
+          <input type="number" id="rectX" />
+          <input type="number" id="rectY" />
+        </div>
+        <div>
+          <label for="rectX">Width, height</label>
+          <input type="number" id="rectWidth" />
+          <input type="number" id="rectHeight" />
+        </div>
+        <div>
+          <button onclick="fillRect()">Fill</button>
+          <button onclick="strokeRect()">Stroke</button>
+          <button onclick="clearRect()">Clear</button>
+        </div>
+      </div>
+
+      <div>
+        <h2>Draw arc</h2>
+        <div>
+          <label for="arcX">Center point (X,Y)</label>
+          <input type="number" id="arcX" />
+          <input type="number" id="arcY" />
+        </div>
+        <div>
+          <label for="arcRadius">Radius</label>
+          <input type="number" id="arcRadius" />
+        </div>
+        <div>
+          <label for="arcStartAngle">Start and end angles</label>
+          <input type="number" id="arcStartAngle" min="0" max="360" />
+          <input type="number" id="arcEndAngle" min="0" max="360" />
+        </div>
+        <div>
+          <label for="arcCCWise">Counterclockwise?</label>
+          <input type="checkbox" id="arcCCWise" />
+        </div>
+        <div>
+          <button onclick="fillArc()">Fill</button>
+          <button onclick="strokeArc()">Stroke</button>
+        </div>
+      </div>
+    </div>
+    <div class="flexControls">
+      <div>
+        <h2>Transforms</h2>
+        <div>
+          <h3>Rotate (angle)</h3>
+          <input type="number" id="rotateAngle" min="0" max="360"/>
+          <button onclick="rotate()">Rotate</button>
+        </div>
+        <div>
+          <h3>Translate (x, y)</h3>
+          <input type="number" id="translateX" />
+          <input type="number" id="translateY" />
+          <button onclick="translate()">Translate</button>
+        </div>
+        <div>
+          <h3>Scale (scaleX, scaleY)</h3>
+          <input type="number" id="scaleX" step="0.1"/>
+          <input type="number" id="scaleY" step="0.1"/>
+          <button onclick="scale()">Scale</button>
+        </div>
+      </div>
+      <div>
+        <h2>Paths</h2>
+        <div>
+          <label for="pathX">X</label>
+          <input type="number" id="pathX" />
+          <label for="pathY">Y</label>
+          <input type="number" id="pathY" />
+        </div>
+        <div>
+          <button onclick="beginPath()">Begin path</button>
+          <button onclick="move()">Move</button>
+          <button onclick="line()">Line</button>
+          <button onclick="closeAndFill()">Close path and fill</button>
+          <button onclick="closeAndStroke()">Close path and stroke</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

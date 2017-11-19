@@ -20,7 +20,6 @@ Only for learning purposes.
 - Event handlers
 
 ### Drawing and animations
-- Canvas API
 - Transition and animation events
 
 ### Advance
@@ -51,3 +50,6 @@ Only for learning purposes.
 ### Persistence and page caching
 - Local and session persistence
 - IndexedDB
+
+### Drawing and animations
+- Canvas API
